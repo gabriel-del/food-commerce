@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom'
 
-import MainPage from './pages/Main'
+import Main from './pages/main'
 
 export function AppRoutes() {
   return (
     <Routes>
-      <Route path='/' element={<MainPage />} />
+      <Route path='/' element={<Main />} />
     </Routes>
   )
 }
